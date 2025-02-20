@@ -2,15 +2,15 @@
 // import './Header.css'
 
 import Header from "../Component/Header"
-
+import './Home.css'
 function Index() {
 //   const [count, setCount] = useState(0)
 
   return (
     <>
     <Header />
-    <div className='teri_maki'>
-        <img src=""></img>
+    <div className='Main'>
+        <img className="bg-img" src="./images/M1.webp"></img>
     </div>
     </>
   )
