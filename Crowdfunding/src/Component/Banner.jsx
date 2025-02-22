@@ -14,7 +14,7 @@ function Banner() {
           </h1>
           <p className="mt-4">Don't worry you've come to the right platform.</p>
           <p className="mt-2 text-lg">With <span className="font-bold text-[#4663ac]">0%*</span> platform fee, you can raise funds too!</p>
-          <button className="mt-6 bg-[#4663ac] px-6 py-3 text-lg rounded-full shadow-lg hover:bg-green-600">
+          <button className="mt-6 bg-[#4663ac] px-6 py-3 text-lg rounded-full shadow-lg hover:bg-white hover:text-black transition duration-300">
             Start A Free Fundraiser
           </button>
         </div>
