@@ -59,7 +59,8 @@ nav {
     border-radius: 10px;
     list-style: none;
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: #c1d8f0;
+    color: black;
 }
 
 .link-container ul li a:hover {

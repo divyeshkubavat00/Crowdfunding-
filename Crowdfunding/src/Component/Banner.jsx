@@ -1,12 +1,13 @@
-import BannerImage from '../assets/images/M1.webp';
+import BannerImage from '../assets/images/M2.jpg';
 
 function Banner() {
   return (
     <>
     <div className="relative w-full h-[500px] bg-gray-100">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat w-full h-[500px]"
-        style={{ backgroundImage: `url('${BannerImage}')` }}>
-      </div>
+    <div className="absolute inset-0 w-full h-[500px] bg-cover bg-center bg-no-repeat"
+     style={{ backgroundImage: `url('${BannerImage}')`, opacity: 0.7 }}>
+    </div>
+
       <div className="absolute inset-0 flex items-center justify-start text-white left-30">
         <div className="max-w-lg">
           <h1 className="text-4xl font-bold">
