@@ -2,7 +2,7 @@ const About = () => {
     return (
 <div className="w-full text-center py-12">
       <h2 className="text-3xl font-semibold text-gray-900">How Can Crowdfunding Help You</h2>
-      <hr className="w-16 border-2 border-green-500 mx-auto my-4" />
+      <hr className="w-16 border-2 border-[#4663ac] mx-auto my-4" />
       <p className="text-gray-700 max-w-3xl mx-auto px-4">
         When the cost of medical treatments takes a toll on you financially, harness the power of social networks through crowdfunding.
         Get tips, crowdfunding assistance & receive donations in times of medical emergencies.
