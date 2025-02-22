@@ -1,11 +1,12 @@
 import BannerImage from '../assets/images/M2.jpg';
+import "./banner.css";
 
 function Banner() {
   return (
     <>
     <div className="relative w-full h-[500px] bg-gray-100">
-    <div className="absolute inset-0 w-full h-[500px] bg-cover bg-center bg-no-repeat"
-     style={{ backgroundImage: `url('${BannerImage}')`, opacity: 0.7 }}>
+    <div className="absolute inset-0 w-full h-[500px] bg-cover bg-center bg-no-repeat opacity-ct"
+     style={{ backgroundImage: `url('${BannerImage}')`}}>
     </div>
 
       <div className="absolute inset-0 flex items-center justify-start text-white left-30">
