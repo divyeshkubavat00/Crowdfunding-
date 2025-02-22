@@ -1,5 +1,3 @@
-// import { useRef } from 'react';
-// import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -13,6 +11,10 @@ const categories = [
   { icon: "❤️", label: "Transplant" },
   { icon: "👶", label: "Child Health" },
   { icon: "🎗", label: "Cancer" },
+  { icon: "🏢", label: "NGO" }, // New category
+  { icon: "📚", label: "Education" }, // New category
+  { icon: "🐾", label: "Animal Welfare" }, // New category
+  { icon: "🌪", label: "Disaster Relief" }, // New category
 ];
 
 function Category() {
@@ -43,8 +45,8 @@ function Category() {
       },
     ],
   };
+
   return (
-    <>
     <div className="category-slider text-center">
       <h2 className="title">Crowdfunding Categories</h2>
       <Slider {...settings}>
@@ -56,8 +58,7 @@ function Category() {
         ))}
       </Slider>
     </div>
-    </>
-  )
+  );
 }
 
-export default Category; 
+export default Category;
