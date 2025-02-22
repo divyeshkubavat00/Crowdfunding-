@@ -1,18 +1,23 @@
 // import { useState } from 'react'
 // import './Header.css'
 
+import About from "../Component/about";
+import Banner from "../Component/Banner"
+import Category from "../Component/Category"
+import Footer from "../Component/Footer";
 import Header from "../Component/Header"
-import './Home.css'
+import './Home.css';
 function Index() {
 //   const [count, setCount] = useState(0)
 
   return (
     <>
     <Header />
-    <div className='Main'>
-        <img className="bg-img" src="./images/M1.webp"></img>
-    </div>
-    </>
+    <Banner />
+    <Category />
+    <About />
+    <Footer />
+    </> 
   )
 }
 
